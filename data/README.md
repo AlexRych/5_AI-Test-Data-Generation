@@ -14,3 +14,13 @@ Observations:
   - Totals include edge boundaries (0, 9999, -12).
   - Each record now includes contact details and an items array.
   - The file stays schema-consistent for valid rows and clearly marks invalid ones.
+
+  ## Chapter 3 – Data Masking and Validation
+Prompt used:
+"Mask customerName, email, and phoneNumber while keeping orderId, status, totalAmount, and items intact.
+Preserve types and structure."
+Checks performed:
+- All masked fields preserve type and basic format.
+- No record lost required keys.
+- items arrays are intact with expected fields.
+- Validation confirmed schema consistency.
