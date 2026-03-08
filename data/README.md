@@ -27,3 +27,22 @@ Checks performed:
 
 INSIGHTS:
 Generated data is described as synthetic but realistic because it is artificially created (not taken from real people or systems) while still looking and behaving like real production data. This balance is useful for development and testing.
+
+## Chapter 4 – Integrating AI-Generated Data into Validation Workflows
+Summary
+- Dataset: customer-orders-chapter-3-masked.json
+- Total records: 30
+- Round-trip checks (using isValid): pass: 28, fail: 2
+- Schema checks (detected issues): pass: 28, fail: 2
+
+Failures (by record)
+Expected failures (marked isValid: false):
+  - orderId 1029 — missing email (required field absent)
+  - orderId 1030 — type mismatches: status is numeric (404), totalAmount is a string, items[].quantity is a string
+Unexpected issues:
+  - None found — all records with schema issues are already isValid: false
+
+Common failure causes observed
+- issing required fields (e.g., email)
+- Field type mismatches (numeric vs string for status, totalAmount, quantity)
+- (No occurrences in this file) negative totalAmount or empty items flagged as failures here

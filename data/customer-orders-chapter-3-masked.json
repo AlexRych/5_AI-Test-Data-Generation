@@ -10,7 +10,8 @@
       { "name": "Wireless Mouse", "quantity": 1, "price": 25.4 },
       { "name": "USB-C Hub", "quantity": 1, "price": 45.0 },
       { "name": "Laptop Stand", "quantity": 1, "price": 55.0 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1002,
@@ -21,7 +22,8 @@
     "totalAmount": 89.99,
     "items": [
       { "name": "Mechanical Keyboard", "quantity": 1, "price": 89.99 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1003,
@@ -32,7 +34,8 @@
     "totalAmount": 45.0,
     "items": [
       { "name": "Notebook Set", "quantity": 3, "price": 15.0 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1004,
@@ -45,7 +48,8 @@
       { "name": "Office Chair Mat", "quantity": 1, "price": 79.75 },
       { "name": "Desk Lamp", "quantity": 1, "price": 56.0 },
       { "name": "Monitor Riser", "quantity": 1, "price": 75.0 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1005,
@@ -57,7 +61,8 @@
     "items": [
       { "name": "Water Bottle", "quantity": 2, "price": 18.5 },
       { "name": "Yoga Mat", "quantity": 1, "price": 30.3 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1006,
@@ -69,7 +74,8 @@
     "items": [
       { "name": "Bluetooth Speaker", "quantity": 1, "price": 64.2 },
       { "name": "Portable Charger", "quantity": 2, "price": 45.0 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1007,
@@ -81,7 +87,8 @@
     "items": [
       { "name": "Ceramic Mug", "quantity": 1, "price": 12.95 },
       { "name": "Tea Sampler", "quantity": 1, "price": 27.0 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1008,
@@ -92,7 +99,8 @@
     "totalAmount": 99.5,
     "items": [
       { "name": "Running Shoes", "quantity": 1, "price": 99.5 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1009,
@@ -104,7 +112,8 @@
     "items": [
       { "name": "Throw Pillow", "quantity": 2, "price": 21.05 },
       { "name": "Candle Set", "quantity": 1, "price": 30.0 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1010,
@@ -116,7 +125,8 @@
     "items": [
       { "name": "Gaming Headset", "quantity": 1, "price": 74.6 },
       { "name": "Mouse Pad", "quantity": 2, "price": 30.0 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1011,
@@ -127,7 +137,8 @@
     "totalAmount": 58.45,
     "items": [
       { "name": "Skin Care Kit", "quantity": 1, "price": 58.45 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1012,
@@ -139,7 +150,8 @@
     "items": [
       { "name": "External SSD", "quantity": 1, "price": 119.99 },
       { "name": "USB Drive 128GB", "quantity": 2, "price": 40.0 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1013,
@@ -151,7 +163,8 @@
     "items": [
       { "name": "Cookware Pan", "quantity": 1, "price": 49.25 },
       { "name": "Kitchen Towels", "quantity": 1, "price": 35.0 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1014,
@@ -164,7 +177,8 @@
       { "name": "Backpack", "quantity": 1, "price": 70.0 },
       { "name": "Lunch Box", "quantity": 1, "price": 20.0 },
       { "name": "Travel Organizer", "quantity": 1, "price": 30.0 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1015,
@@ -176,9 +190,9 @@
     "items": [
       { "name": "Scented Candle", "quantity": 2, "price": 19.95 },
       { "name": "Match Holder", "quantity": 1, "price": 10.0 }
-    ]
+    ],
+    "isValid": true
   },
-
   {
     "orderId": 1016,
     "customerName": "Gavin Reed",
@@ -189,7 +203,8 @@
     "items": [
       { "name": "Camping Stove", "quantity": 1, "price": 89.9 },
       { "name": "Fuel Canister", "quantity": 2, "price": 26.95 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1017,
@@ -197,8 +212,11 @@
     "email": "tessa.bryant@maskedmail.test",
     "phoneNumber": "+1-444-700-2017",
     "status": "On Hold",
-    "totalAmount": 0,
-    "items": []
+    "totalAmount": 11.0,
+    "items": [
+      { "name": "Refund Adjustment", "quantity": 1, "price": 11 }
+    ],
+    "isValid": true
   },
   {
     "orderId": 1018,
@@ -209,7 +227,8 @@
     "totalAmount": 24.99,
     "items": [
       { "name": "Refund Adjustment", "quantity": 1, "price": 24.99 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1019,
@@ -221,7 +240,8 @@
     "items": [
       { "name": "Air Purifier Filter", "quantity": 3, "price": 49.99 },
       { "name": "Air Purifier", "quantity": 1, "price": 199.99 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1020,
@@ -229,11 +249,12 @@
     "email": "wesley.stone@maskedmail.test",
     "phoneNumber": "+1-444-700-2020",
     "status": "Returned",
-    "totalAmount": 9999.99,
+    "totalAmount": 99999.99,
     "items": [
-      { "name": "Professional Camera Body", "quantity": 1, "price": 7499.99 },
-      { "name": "Cinema Lens Kit", "quantity": 1, "price": 2500.0 }
-    ]
+      { "name": "Professional Camera Body", "quantity": 1, "price": 74999.99 },
+      { "name": "Cinema Lens Kit", "quantity": 1, "price": 25000.0 }
+    ],
+    "isValid": true
   },
   {
     "orderId": 1021,
@@ -244,7 +265,8 @@
     "totalAmount": 18.99,
     "items": [
       { "name": "Planner", "quantity": 1, "price": 18.99 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1022,
@@ -256,7 +278,8 @@
     "items": [
       { "name": "Office Desk", "quantity": 1, "price": 420.45 },
       { "name": "Cable Tray", "quantity": 2, "price": 70.0 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1023,
@@ -267,7 +290,8 @@
     "totalAmount": 12.5,
     "items": [
       { "name": "Greeting Card Pack", "quantity": 1, "price": 12.5 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1024,
@@ -278,7 +302,8 @@
     "totalAmount": 120.0,
     "items": [
       { "name": "Chargeback Reversal", "quantity": 1, "price": 120.0 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1025,
@@ -291,7 +316,8 @@
       { "name": "Conference Room Display", "quantity": 1, "price": 6400.0 },
       { "name": "Wall Mount Kit", "quantity": 1, "price": 350.5 },
       { "name": "Installation Service", "quantity": 1, "price": 1050.0 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1026,
@@ -302,7 +328,8 @@
     "totalAmount": 0.01,
     "items": [
       { "name": "Price Correction", "quantity": 1, "price": 0.01 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1027,
@@ -314,7 +341,8 @@
     "items": [
       { "name": "Winter Jacket", "quantity": 1, "price": 180.0 },
       { "name": "Beanie", "quantity": 2, "price": 30.7 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1028,
@@ -326,28 +354,30 @@
     "items": [
       { "name": "Board Game", "quantity": 1, "price": 39.99 },
       { "name": "Card Sleeves", "quantity": 2, "price": 13.335 }
-    ]
+    ],
+    "isValid": true
   },
   {
     "orderId": 1029,
     "customerName": "Selah Porter",
-    "email": "selah.porter@maskedmail.test",
     "phoneNumber": "+1-444-700-2029",
     "status": "Returned",
     "totalAmount": 44.0,
     "items": [
       { "name": "Desk Organizer", "quantity": 1, "price": 44.0 }
-    ]
+    ],
+    "isValid": false
   },
   {
     "orderId": 1030,
     "customerName": "Tristan Wade",
     "email": "tristan.wade@maskedmail.test",
     "phoneNumber": "+1-444-700-2030",
-    "status": "Pending",
-    "totalAmount": 89.90,
+    "status": 404,
+    "totalAmount": "89.90",
     "items": [
-      { "name": "Bluetooth Tracker", "quantity": 2, "price": 44.95 }
-    ]
+      { "name": "Bluetooth Tracker", "quantity": "2", "price": 44.95 }
+    ],
+    "isValid": false
   }
 ]
