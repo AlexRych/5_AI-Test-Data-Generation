@@ -20,5 +20,8 @@
   "homepage": "https://github.com/AlexRych/5_AI-Test-Data-Generation#readme",
   "dependencies": {
     "@playwright/test": "^1.58.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5"
   }
 }
