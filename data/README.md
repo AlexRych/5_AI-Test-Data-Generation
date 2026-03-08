@@ -24,3 +24,6 @@ Checks performed:
 - No record lost required keys.
 - items arrays are intact with expected fields.
 - Validation confirmed schema consistency.
+
+INSIGHTS:
+Generated data is described as synthetic but realistic because it is artificially created (not taken from real people or systems) while still looking and behaving like real production data. This balance is useful for development and testing.
