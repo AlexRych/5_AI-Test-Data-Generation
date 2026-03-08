@@ -46,3 +46,22 @@ Common failure causes observed
 - issing required fields (e.g., email)
 - Field type mismatches (numeric vs string for status, totalAmount, quantity)
 - (No occurrences in this file) negative totalAmount or empty items flagged as failures here
+
+## Chapter 5 – AI Data Quality Report
+Validation source: Playwright | Postman
+Total records tested: 30
+Passed: 28
+Failed: 2
+Pass rate: 93.33 %
+Common issues:
+- missing required field: email (1)
+- `status` type mismatch (numeric vs expected string) (1)
+- `totalAmount` type mismatch (string vs expected number) (1)
+- `items[].quantity` type mismatch (string vs expected number) (1)
+Observations:
+- Masking preserved structure in 100 % of valid rows.
+- Failures are single-occurrence edge cases; they highlight areas for prompt refinement.
+Next steps:
+- Tighten prompt instructions for numeric fields and explicit types.
+- Enforce required fields (email) in generation prompt.
+- Add a pre-validation step to catch schema mismatches before sending data to the API.
